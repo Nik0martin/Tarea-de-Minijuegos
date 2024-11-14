@@ -1,0 +1,150 @@
+.cabecera{
+    background-color: blue;
+}
+.titulo{
+    font-size: 400%;
+}
+
+.subtitulo{
+   font-size: 200%;
+}
+
+.tarjetasmenu{
+   margin-top: 10%; 
+}
+.nav-link{
+    
+    margin-left: 550%;
+    
+}
+
+.menu{
+    font-size: 200%;
+}
+/* hacer letra mas pequeña cuando sea menor de 523px */
+@media screen and (max-width: 523px) {
+   .partearriba{
+    font-size: 10px;
+
+   }
+}
+body{
+    margin: 0%;
+}
+#titulo{
+    display: flex;
+    justify-content: center;
+    
+}
+#subtitulo{
+    display: flex;
+    justify-content: center;
+}
+#puntos{
+    display: flex;
+    justify-content: center;
+}
+.cuerpojuego{
+    display: flex;
+    flex-direction: row;
+    gap: 40%;
+    width: 100%;
+    
+    
+}
+.banderas{
+    display: flex;
+    flex-direction: column;
+   gap: 30px;
+   height: 100%;
+   margin-left: 10%;
+}
+#bosnia{
+    cursor: pointer;
+}
+#uruguay{
+    cursor: pointer;
+}
+#chile{
+    cursor: pointer;
+}
+#albania{
+    cursor: pointer;
+}
+#noruega{
+    cursor: pointer;
+}
+#dinamarca{
+    cursor: pointer;
+}
+#republicacheca{
+    cursor: pointer;
+}
+.paises{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    gap: 30px;
+    margin-right: 5%;
+    
+    
+    
+}
+.republicacheca{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.bosnia{
+    border: 2px solid black;
+    display: flex;
+    height: 100px;
+    width: 100px;
+    align-items: center;
+}
+.dinamarca{
+    border: 2px solid black;
+    display: flex;
+    height: 100px;
+    width: 100px;
+    align-items: center;
+}
+.chile{
+    border: 2px solid black;
+    display: flex;
+    height: 100px;
+    width: 100px;
+    align-items: center;
+}
+.noruega{
+    border: 2px solid black;
+    display: flex;
+    height: 100px;
+    width: 100px;
+    align-items: center;
+}
+.albania{
+    border: 2px solid black;
+    display: flex;
+    height: 100px;
+    width: 100px;
+    align-items: center;
+}
+.uruguay{
+    border: 2px solid black;
+    display: flex;
+    height: 100px;
+    width: 100px;
+    align-items: center;
+}
+.texto{
+    font-size: x-small;
+    display: flex;
+    flex-direction: column;
+}

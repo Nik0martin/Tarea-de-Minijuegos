@@ -1,0 +1,119 @@
+
+
+        body{
+            margin: 0%;
+            padding: 0%;
+        }
+        .cabecera{
+            background-color: blue;
+        }
+        .titulo{
+            font-size: 400%;
+        }
+
+        .subtitulo{
+           font-size: 200%;
+        }
+        
+        .nav-link{
+            
+            margin-left: 550%;
+            
+        }
+        
+        .menu{
+            font-size: 200%;
+        }
+
+
+        .test{
+            margin: 5%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border: 2px solid rgb(0, 0, 0);
+            
+
+        }
+        .oculto{
+            display: none;
+            
+            
+        }
+        .diseñopreguntas{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
+        }
+
+        button{
+            cursor: pointer;
+        }
+        #puntos{
+            font-size: 200%;
+
+        }
+        .pregunta1{
+            margin: 1%;
+            width: 80%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border: 2px solid black;
+
+        }
+        
+        .respuestas1{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+        .pregunta{
+            margin: 1%;
+            width: 80%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border: 2px solid black;
+
+        }
+        .respuestas{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+        .pregunta3{
+            margin: 1%;
+            width: 80%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border: 2px solid black;
+
+        }
+        .respuestas3{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+
+        .pregunta4{
+            margin: 1%;
+            width: 80%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border: 2px solid black;
+
+        }
+        .respuestas4{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+        #finalizar{
+            font-size: 150%;
+        }
+
+    

@@ -1,0 +1,121 @@
+.cabecera{
+    background-color: blue;
+}
+.titulo{
+    font-size: 400%;
+}
+
+.subtitulo{
+   font-size: 200%;
+}
+
+.tarjetasmenu{
+   margin-top: 10%; 
+}
+.nav-link{
+    
+    margin-left: 550%;
+    
+}
+
+.menu{
+    font-size: 200%;
+}
+.crucigrama{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 35%;
+    margin-right: 35%;
+    
+    
+
+}
+.contenedorcronometro{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+.Titulo{
+    font-size: 25px;
+    text-align: center;
+    
+   
+}
+.celda {
+    position: relative;
+    width: 40px; 
+    height: 40px; 
+    border: 1px solid black;
+    padding: 5px;
+        }
+
+.fila {
+    display: flex;
+}
+
+.celda {
+    flex: 1;
+    border: 1px solid black;
+    padding: 5px;
+    width: 40px;
+    height: 40px;
+
+}
+#cb{
+    background-color: black;
+}
+.contenido{
+    background-color: black;
+}
+
+input[type="text"] {
+    width: 100%;
+    height: 100%;
+    border: none;
+    text-align: center;
+    font-size: 20px;
+    position: relative;
+    z-index: 1;
+        }
+
+.numeropequeño {
+        position: absolute;
+        top: 2px;
+        right: 2px;
+        font-size: 12px; 
+        color: gray;
+        z-index: 2;
+    }
+
+
+#Botonverificar{
+    display: block;
+    margin: 0 auto;
+    
+        }
+
+button{
+    cursor: pointer;
+}     
+.preguntas{
+display: flex;
+gap: 50%;
+}
+@media screen and (max-width: 600px) {
+.preguntas {
+    display: flex;
+    flex-direction: column;
+    gap: 50%;
+}
+
+.crucigrama{
+        margin-top: 5%;
+        margin-bottom: 5%;
+        margin-left: 15%;
+        margin-right: 15%;
+        
+        
+
+    }
+
+}
