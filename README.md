@@ -1,4 +1,6 @@
 ## Pagina de minujuegos
+es un poco chof no se como ponerlo en oculto ni borrarlo no me juzguen por esto
+
 Este fueun proyecto que realice en primer año, consiste de una pagina con diferentes minijuegos, cada uno con su propio tema.
 Son unos minjuegos muy intuitivos y sencillos, es un proyecto sencillo pero que en su dia me permitió aplicar mis conociemientos de programacion.
 
